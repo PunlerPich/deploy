@@ -20,7 +20,7 @@ export default function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/deploy" element={<Home />} />
         <Route path="/individual" element={<HeroScrollDemo />} />
         <Route path="/WorkExperience" element={<TracingBeamDemo />} />
         <Route path="/Contact" element={<Contact />} />
